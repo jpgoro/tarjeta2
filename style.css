@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tarjeta {
+  margin: 100px auto;
+  width: 450px;
+  height: 650px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 35px;
+  background-color: #fff;
+}
+
+.tartext {
+  color: rgb(167, 158, 158);
+  font-size: 0.9rem;
+  margin: 25px auto;
+  line-height: 1.6;
+  max-width: 36ch;
+}
+.tarjeta h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #322c80;
+  font-weight: bolder;
+}
+
+.tarImg {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.box1 {
+
+  position: relative;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.box1 a {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: rgb(46, 32, 250);
+  font-weight: bolder;
+}
+.box1 img {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.box1text {
+  color: #322c80;
+  margin: 10px auto;
+  transform: translateX(-40px);
+}
+
+.box1text h4 {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+button {
+  margin-bottom: 30px;
+  border: 1px solid rgb(42, 42, 212);
+  padding: 13px 90px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(54, 54, 219);
+  box-shadow: 5px 10px 10px 0 rgba(20, 20, 80, 0.3);
+}
+
+.cancel {
+  font-size: 15px;
+  text-decoration: solid rgb(24, 24, 148);
+}
